@@ -13,6 +13,7 @@ let blackjackGame = {
     // 'standButton': true,
 };
 
+// Used for disabling the buttons
 var btn_deal = document.getElementById("blackjack-deal-button");
 var btn_hit = document.getElementById("blackjack-hit-button");
 var btn_stand = document.getElementById("blackjack-stand-button");
@@ -183,7 +184,7 @@ function showResult(winner) {
             // #wins comes from the id="wins" in html
             document.querySelector('#wins').textContent = blackjackGame['wins'];
             message = 'You Win!';
-            messageColor = 'green';
+            messageColor = 'lightgreen';
             winSound.play();
         } else if (winner === DEALER) {
             document.querySelector('#losses').textContent = blackjackGame['losses'];

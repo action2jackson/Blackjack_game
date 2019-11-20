@@ -1,26 +1,23 @@
 .container-1 {
     border: 1px solid black;
-    width: 75%;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
+    background: url('https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/13756/images/13756_3e140f5b90803297aa685ec07828b9ca.jpg');
+    color: black;
 }
 
 .flex-blackjack-row-1, .flex-blackjack-row-2, .flex-blackjack-row-3 {
     display: flex;
-    border: 1px solid black;
     padding: 10px;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-.flex-blackjack-row-1, .flex-blackjack-row-2 {
-    background: url('https://cms-assets.tutsplus.com/legacy-premium-tutorials/posts/13756/images/13756_3e140f5b90803297aa685ec07828b9ca.jpg')
-}
-
 .flex-blackjack-row-1 div {
     border: 1px solid black;
     padding: 10px;
-    height: 350px;
+    height: 605px;
     text-align: center;
     width: 50%;
 }
