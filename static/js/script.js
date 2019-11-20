@@ -17,7 +17,7 @@ var btn_deal = document.getElementById("blackjack-deal-button");
 var btn_hit = document.getElementById("blackjack-hit-button");
 var btn_stand = document.getElementById("blackjack-stand-button");
 btn_deal.disabled = true
-btn_hit.disabled = false;   
+btn_hit.disabled = false;
 btn_stand.disabled = true;
 
 const YOU = blackjackGame['you']
@@ -64,6 +64,7 @@ function showCard(card, activePlayer) {
 }
 
 function blackjackDeal() {
+    btn_hit.disabled = false;
 
     if (blackjackGame['turnsOver'] === true) {
 
