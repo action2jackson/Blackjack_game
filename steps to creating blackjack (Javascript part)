@@ -1,0 +1,23 @@
+1.Create a library that corresponds to the dealer and your own score in html
+2.Create cards library and card value library
+3.Create button Hit functionality making the cards that appear random (Create a random card generator first)
+4.Create a showcard function that allows js to access the card images
+5.Create button Deal functionality removing all the card images that were on the screen
+6.Create updatescore function that deals with Ace dilemma and allows score to be printed on the front-end
+7.Create BUST functionality that doesn't allow card images to be displayed or the score to keep incrementing after 21
+8.Adding to button Deal functionality, allowing it to clear the number or BUST and reset back to 0 on front/backend
+9.Create a function for the dealer
+10.Connect function for dealer to the stand button so when its pressed dealer makes a card appear
+11.Create a function for all the ways to win, lose and draw
+12.Create a function for sounds and text for win, lose, and draw
+13.Then plug the two win/lose functions into the main function that plays the game
+14.Create some bot logic for computer (if bots score is over 15 don't hit again)
+15.Create win, lose, draw backend table
+16.Connect the backend to frontend so the wins, losses and draws show up
+17.Once you press STAND you cant hit again
+18.You cant press DEAL until both YOUR turn and the BOTS turn is over
+19.Automate the bots ability to place cards every 1 sec
+
+20.can't press stand button more then once in a turn
+21.can only press HIT button first
+22. 
